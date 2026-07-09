@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node server.js & vite --port 5177",
+    "dev:backend": "node server.js",
+    "dev:frontend": "vite --port 5177",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"
